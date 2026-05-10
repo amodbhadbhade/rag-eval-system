@@ -1,0 +1,30 @@
+fastapi
+uvicorn
+pymongo
+python-dotenv
+langchain<0.3.0
+langchain-community<0.3.0
+langchain-openai<0.3.0
+langchain-text-splitters<0.3.0
+langchain-core<0.3.0
+openai<2.0.0
+ragas==0.1.22
+setuptools
+pyarrow>=18.0.0
+datasets
+# pypdf
+faiss-cpu
+#streamlit
+pymupdf
+rapidfuzz
+certifi
+langchain_ollama
+python-multipart
+# docling>=1.0.0
+# pypdfium2>=4.20.0
+pydantic
+# typing-extensions>=4.0.0
+# unstructured
+# langchain_docling
+# opencv-python-headless==4.9.0.80
+deepeval

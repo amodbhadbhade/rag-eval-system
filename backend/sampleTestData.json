@@ -1,0 +1,52 @@
+[
+  {
+  "dataset_id": "9a62de9b-f859-4b12-b8cf-aa8cf8decd59",
+    "question": "What is the role of the Vector Index (HNSW) within the storage engine anatomy?",
+    "answer": "Within the storage engine anatomy, the Vector Index (HNSW) is used for efficient semantic search over high-dimensional embeddings.",
+    "contexts": [
+      "The storage engine uses a Hierarchical Navigable Small World (HNSW) graph to index vectors for fast approximate nearest neighbor search.",
+      "HNSW enables efficient traversal across vector space, significantly reducing search latency in high-dimensional datasets.",
+      "Vector indexes such as HNSW are critical components for enabling semantic similarity search in modern vector databases."
+    ],
+  "ragsource": "mobile",
+  "pdfloader": "PyMuPDFLoader",
+  "hasimage": false,
+  "hastable": false,
+  "textsplitter": "RecursiveCharacterTextSplitter",
+  "chunk_size": 500,
+  "chunk_overlap": 50,
+  "embedding_model": "ext-embedding-3-small",
+  "generator_llm": "gemma4:2b",
+  "temperature": 0
+},
+  {
+    "dataset_id": "9a62de9b-f859-4b12-b8cf-aa8cf8decd59",
+    "question": "How does sharding help in scaling vector databases?",
+    "answer": "Sharding helps in scaling vector databases by distributing vector data across multiple nodes, enabling horizontal scalability and better memory utilization.",
+    "contexts": [
+      "Sharding splits large datasets into smaller partitions that are distributed across multiple machines.",
+      "Each shard stores a subset of vectors, allowing queries to be processed in parallel across nodes.",
+      "Horizontal scaling through sharding ensures that vector databases can handle large-scale workloads efficiently."
+    ]
+  },
+  {
+    "dataset_id": "9a62de9b-f859-4b12-b8cf-aa8cf8decd59",
+    "question": "Why is cosine similarity commonly used in vector search?",
+    "answer": "Cosine similarity is commonly used in vector search because it measures the angle between vectors, making it effective for comparing semantic similarity regardless of magnitude.",
+    "contexts": [
+      "Cosine similarity calculates the cosine of the angle between two vectors in a multi-dimensional space.",
+      "It is widely used in NLP applications because it focuses on direction rather than magnitude of vectors.",
+      "Normalized embeddings combined with cosine similarity provide reliable semantic comparison results."
+    ]
+  },
+  {
+    "dataset_id": "9a62de9b-f859-4b12-b8cf-aa8cf8decd59",
+    "question": "What is the purpose of metadata filtering in a vector database?",
+    "answer": "Metadata filtering allows restricting search results using structured attributes before performing vector similarity search.",
+    "contexts": [
+      "Vector databases support metadata fields such as category, timestamp, or tags for filtering results.",
+      "Filtering is applied before or during vector search to reduce the candidate search space.",
+      "Combining metadata filtering with vector similarity improves both accuracy and relevance of search results."
+    ]
+  }
+]
