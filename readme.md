@@ -12,6 +12,9 @@ A comprehensive system for diagnosing, evaluating, and improving the performance
 * **AI-Powered Recommendations:** Receive actionable, LLM-generated recommendations to fix failing RAG metrics (e.g., chunk size tuning, prompt fixes, top-k adjustments).
 * **Flexible LLM Support:** Works with OpenAI models (GPT-4o) or local/cloud Ollama models.
 
+## RAG evaluation system architecture diagram
+![alt text](image.png)
+
 ## Project Structure
 
 * `/backend`: FastAPI application handling dataset generation, evaluation logic, database interactions (MongoDB), and AI recommendations.
